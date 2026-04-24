@@ -64,7 +64,8 @@ python -m venv venv
 venv\Scripts\activate   # Windows
 
 pip install -r requirements.txt
-```bash
+```
+---
 
 ## ▶️ Usage
 
@@ -72,14 +73,14 @@ Run the pipeline using CLI:
 
 ```bash
 python main.py --pages 3
-```bash
+```
 
-📊 Output
+---
+
+## 📊 Output
 
 The pipeline generates:
-
-data/output.csv
-data/output.json
+- data/output.json
 
 Example output:
 
@@ -90,23 +91,33 @@ Example output:
   }
 ]
 
-🧠 Key Learnings
-Handling inconsistent and unstructured data
-Using regex for data cleaning
-Designing modular data pipelines
-Config-driven system design
-Building CLI-based tools
+---
 
-🚀 Future Improvements
-Multi-source scraping (multiple websites)
-Email/receipt parsing using XPath
-Database integration (SQL/NoSQL)
-Data visualization dashboard
+## 🧠 Key Learnings
 
-👨‍💻 Author
+- Handling messy and unstructured data
+- Using regex for data cleaning
+- Designing modular data pipelines
+- Config-driven system design
+- Building CLI-based tools
+
+---
+
+ ## 🚀 Future Improvements
+
+- Multi-source scraping (multiple websites)
+- Email/receipt parsing using XPath
+- Database integration (SQL/NoSQL)
+- Data visualization dashboard
+
+---
+
+## 👨‍💻 Author
 
 Sahil
 
-📌 Note
+---
+
+## 📌 Note
 
 This project demonstrates real-world data extraction challenges similar to industry use cases such as OCR-based receipt parsing and automated data processing systems.
