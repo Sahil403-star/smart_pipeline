@@ -1,0 +1,6 @@
+{
+  "fields": {
+    "title": "h3 a::attr(title)",
+    "price": ".price_color"
+  }
+}
