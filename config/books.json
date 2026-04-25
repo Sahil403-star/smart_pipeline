@@ -1,4 +1,12 @@
+// {
+//   "fields": {
+//     "title": "h3 a::attr(title)",
+//     "price": ".price_color"
+//   }
+// }
+
 {
+  "base_url": "http://books.toscrape.com/catalogue/page-{}.html",
   "fields": {
     "title": "h3 a::attr(title)",
     "price": ".price_color"
